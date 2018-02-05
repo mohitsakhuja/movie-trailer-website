@@ -56,6 +56,16 @@ main_page_head = '''
             top: 0;
             background-color: white;
         }
+        .container-1 {
+            float: left;
+            width: 35%;
+            margin-left: 15%;
+        }
+        .container-2 {
+            float: right;
+            width: 35%;
+            margin-right: 15%;
+        }
     </style>
     <script type="text/javascript" charset="utf-8">
         // Pause the video when the modal is closed
@@ -105,10 +115,13 @@ main_page_content = '''
     <!-- Main Page Content -->
     <div class="container">
       <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-        <div class="container">
+        <div class="container-1">
           <div class="navbar-header">
             <a class="navbar-brand" href="#">Fresh Tomatoes Movie Trailers</a>
           </div>
+        </div>
+        <div class="container-2">
+          <a class="navbar-right navbar-brand" href="https://www.themoviedb.org/">Powered By TMDb</a>
         </div>
       </div>
     </div>
